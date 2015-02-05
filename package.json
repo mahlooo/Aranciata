@@ -1,0 +1,37 @@
+{
+  "name": "Clubs",
+  "version": "0.0.0-SNAPSHOT",
+  "description": "Club... website... software...",
+  "author": "Malone",
+  "homepage": "https://github.com/mahlooo/Clubs",
+  "private": true,
+  "keywords": [
+    "clubs",
+    "management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahlooo/Clubs.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"No test specified.\" && exit 0"
+  },
+  "license": "All Rights Reserved",
+  "bugs": {
+    "url": "https://github.com/mahlooo/Clubs/issues"
+  },
+  "dependencies": {
+    "express": "4.11.2",
+    "bluebird": "^2.9.6",
+    "colors": "^1.0.3",
+    "express-hbs": "^0.7.11",
+    "lodash": "^3.1.0",
+    "passport": "^0.2.1",
+    "moment": "^2.9.0",
+    "sqlite3": "^3.0.4",
+    "knex": "^0.7.3",
+    "bookshelf": "^0.7.9"
+  }
+}
